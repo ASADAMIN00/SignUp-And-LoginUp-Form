@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aqua;
+    background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg);
+  }
+  
+  .container {
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #099097;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #630c0c;
+  }
+  
+  
